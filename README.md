@@ -1,24 +1,10 @@
-\# HazMapper 🤖⚠️
+# HazMapper 🤖⚠️
 
 
 
-\*\*HazMapper\*\* is an autonomous mobile robot developed to \*\*map and monitor hazardous environments\*\*, reducing human exposure to dangerous conditions.  
+**HazMapper** is an autonomous mobile robot developed to **map and monitor hazardous environments**, reducing human exposure to dangerous conditions.  
 
-This project was developed as part of \*\*Projeto Integrador II\*\* in the \*\*Bachelor’s Degree in Industrial Electronics and Computers Engineering\*\* at the \*\*University of Minho\*\*.
-
-
-
----
-
-
-
-\## 🚀 Overview
-
-
-
-HazMapper is designed to operate in risky or hard-to-access areas, collecting \*\*environmental data\*\* and transmitting it remotely in real time.  
-
-The robot combines \*\*omnidirectional locomotion\*\*, \*\*sensor fusion\*\*, \*\*wireless communication\*\*, and a \*\*real-time operating system\*\* to ensure safe and responsive operation.
+This project was developed as part of **Projeto Integrador II** in the **Bachelor’s Degree in Industrial Electronics and Computers Engineering** at the **University of Minho**.
 
 
 
@@ -26,25 +12,39 @@ The robot combines \*\*omnidirectional locomotion\*\*, \*\*sensor fusion\*\*, \*
 
 
 
-\## 🔧 Main Features
+## 🚀 Overview
 
 
 
-\- 🛞 \*\*Omnidirectional locomotion\*\* with 4 independently controlled motors  
+HazMapper is designed to operate in risky or hard-to-access areas, collecting **environmental data** and transmitting it remotely in real time.  
 
-\- 🎯 \*\*Closed-loop motor control\*\* using individual PID controllers with encoder feedback  
+The robot combines **omnidirectional locomotion**, **sensor fusion**, **wireless communication**, and a **real-time operating system** to ensure safe and responsive operation.
 
-\- 🌡️ \*\*Environmental monitoring\*\*
+
+
+---
+
+
+
+## 🔧 Main Features
+
+
+
+- 🛞 **Omnidirectional locomotion** with 4 independently controlled motors  
+
+- 🎯 **Closed-loop motor control** using individual PID controllers with encoder feedback  
+
+- 🌡️ **Environmental monitoring**
 
 &nbsp; - Temperature (HDC1080)
 
-&nbsp; - Gas levels: CO₂ (eCO₂) \& TVOC (CCS811)
+&nbsp; - Gas levels: CO₂ (eCO₂) & TVOC (CCS811)
 
-\- 🚧 \*\*Obstacle detection\*\* using ultrasonic parking sensors  
+- 🚧 **Obstacle detection** using ultrasonic parking sensors  
 
-\- 📷 \*\*Onboard camera\*\* (OV7670) for remote visual monitoring  
+- 📷 **Onboard camera** (OV7670) for remote visual monitoring  
 
-\- 🔋 \*\*Battery voltage monitoring\*\* with ADC and safety indicators  
+- 🔋 **Battery voltage monitoring** with ADC and safety indicators  
 
 
 
@@ -52,21 +52,21 @@ The robot combines \*\*omnidirectional locomotion\*\*, \*\*sensor fusion\*\*, \*
 
 
 
-\## 📡 Communication \& Control
+## 📡 Communication & Control
 
 
 
-\- 📱 \*\*Android application (Kotlin)\*\*
+- 📱 **Android application (Kotlin)**
 
 &nbsp; - Virtual joystick for omnidirectional control
 
 &nbsp; - ON/OFF safety control
 
-\- 🔵 \*\*Bluetooth Low Energy (BLE)\*\* for low-latency control
+- 🔵 **Bluetooth Low Energy (BLE)** for low-latency control
 
-\- 📶 \*\*Wi-Fi (ESP32)\*\* for sensor data transmission via UDP
+- 📶 **Wi-Fi (ESP32)** for sensor data transmission via UDP
 
-\- 🧠 \*\*STM32H755\*\* as main controller with \*\*FreeRTOS\*\*
+- 🧠 **STM32H755** as main controller with **FreeRTOS**
 
 
 
@@ -74,23 +74,23 @@ The robot combines \*\*omnidirectional locomotion\*\*, \*\*sensor fusion\*\*, \*
 
 
 
-\## 🧩 System Architecture
+## 🧩 System Architecture
 
 
 
-\- \*\*STM32H755\*\*  
+- **STM32H755**  
 
 &nbsp; - Motor control, sensors, RTOS, camera interface  
 
-\- \*\*ESP32\*\*
+- **ESP32**
 
 &nbsp; - BLE communication with Android app  
 
 &nbsp; - Wi-Fi data transmission
 
-\- \*\*Custom 4-layer PCB\*\*
+- **Custom 4-layer PCB**
 
-&nbsp; - Power \& signal isolation
+&nbsp; - Power & signal isolation
 
 &nbsp; - EMI reduction
 
@@ -102,45 +102,25 @@ The robot combines \*\*omnidirectional locomotion\*\*, \*\*sensor fusion\*\*, \*
 
 
 
-\## 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 
 
-\- C / Embedded C
+- C / Embedded C
 
-\- FreeRTOS
+- FreeRTOS
 
-\- STM32 HAL
+- STM32 HAL
 
-\- ESP32 (BLE \& Wi-Fi)
+- ESP32 (BLE & Wi-Fi)
 
-\- Kotlin (Android)
+- Kotlin (Android)
 
-\- PID control
+- PID control
 
-\- DMA, ADC, UART, I2C
+- DMA, ADC, UART, I2C
 
-\- Custom PCB design
-
-
-
----
-
-
-
-\## 🔮 Future Work
-
-
-
-\- ROS2 / micro-ROS integration (digital twin)
-
-\- MJPEG video streaming over Wi-Fi
-
-\- GPS integration
-
-\- Long-range communication (LoRa)
-
-\- More powerful processing platform (e.g. Raspberry Pi)
+- Custom PCB design
 
 
 
@@ -148,21 +128,19 @@ The robot combines \*\*omnidirectional locomotion\*\*, \*\*sensor fusion\*\*, \*
 
 
 
-\## 👥 Authors
+## 🔮 Future Work
 
 
 
-\- André Martins  
+- ROS2 / micro-ROS integration (digital twin)
 
-\- Álvaro Silva  
+- MJPEG video streaming over Wi-Fi
 
-\- Ana Cruz  
+- GPS integration
 
-\- Mariana Martins  
+- Long-range communication (LoRa)
 
-
-
-\*\*Supervisor:\*\* Prof. Adriano Tavares
+- More powerful processing platform (e.g. Raspberry Pi)
 
 
 
@@ -170,7 +148,29 @@ The robot combines \*\*omnidirectional locomotion\*\*, \*\*sensor fusion\*\*, \*
 
 
 
-\## 📍 Institution and Degree
+## 👥 Authors
+
+
+
+- André Martins  
+
+- Álvaro Silva  
+
+- Ana Cruz  
+
+- Mariana Martins  
+
+
+
+**Supervisor:** Prof. Adriano Tavares
+
+
+
+---
+
+
+
+## 📍 Institution and Degree
 
 
 
