@@ -1,4 +1,4 @@
-# HazMapper 🤖⚠️
+# HazMapper 🤖
 
 **HazMapper** is an autonomous mobile robot developed to **map and monitor hazardous environments**, reducing human exposure to dangerous conditions.  
 
@@ -14,29 +14,29 @@ The robot combines **omnidirectional locomotion**, **sensor fusion**, **wireless
 
 ---
 
-## 🔧 Main Features
+## Main Features
 
-- 🛞 **Omnidirectional locomotion** with 4 independently controlled motors  
-- 🎯 **Closed-loop motor control** using individual PID controllers with encoder feedback  
-- 🌡️ **Environmental monitoring**
+- **Omnidirectional locomotion** with 4 independently controlled motors  
+- **Closed-loop motor control** using individual PID controllers with encoder feedback  
+- **Environmental monitoring**
 &nbsp; - Temperature (HDC1080)
 &nbsp; - Gas levels: CO₂ (eCO₂) & TVOC (CCS811)
-- 🚧 **Obstacle detection** using ultrasonic parking sensors  
-- 🔋 **Battery voltage monitoring** with ADC and safety indicators  
+- **Obstacle detection** using ultrasonic parking sensors  
+- **Battery voltage monitoring** with ADC and safety indicators  
 
 ---
 
-## 📡 Communication & Control
+## Communication & Control
 
-- 📱 **Android application (Kotlin)**
+- **Android application (Kotlin)**
 &nbsp; - Virtual joystick for omnidirectional control
 &nbsp; - ON/OFF safety control
 
-- 🔵 **Bluetooth Low Energy (BLE)** for low-latency control
-- 📶 **Wi-Fi (ESP32)** for sensor data transmission via UDP
-- 🧠 **STM32H755** as main controller with **FreeRTOS**
+- **Bluetooth Low Energy (BLE)** for low-latency control
+- **Wi-Fi (ESP32)** for sensor data transmission via UDP
+- **STM32H755** as main controller with **FreeRTOS**
 ---
-## 🧩 System Architecture
+## System Architecture
 - **STM32H755**  
 &nbsp; - Motor control, sensors, RTOS, camera interface  
 - **ESP32**
@@ -47,7 +47,7 @@ The robot combines **omnidirectional locomotion**, **sensor fusion**, **wireless
 &nbsp; - EMI reduction
 &nbsp; - Integrated motor drivers and sensors
 ---
-## 🛠️ Technologies Used
+## Technologies Used
 - C / Embedded C
 - FreeRTOS
 - STM32 HAL
@@ -57,7 +57,7 @@ The robot combines **omnidirectional locomotion**, **sensor fusion**, **wireless
 - DMA, ADC, UART, I2C
 - Custom PCB design
 ---
-## 🔮 Future Work
+## Future Work
 - ROS2 / micro-ROS integration (digital twin)
 - Onboard camera (OV7670) integration, with already developed code, for remote visual monitoring  
 - MJPEG video streaming over Wi-Fi
@@ -65,7 +65,7 @@ The robot combines **omnidirectional locomotion**, **sensor fusion**, **wireless
 - Long-range communication (LoRa)
 - More powerful processing platform (e.g. Raspberry Pi)
 ---
-## 👥 Authors
+## Authors
 
 - André Martins  
 - Álvaro Silva      (https://github.com/alvaro2105)
@@ -76,7 +76,7 @@ The robot combines **omnidirectional locomotion**, **sensor fusion**, **wireless
 
 ---
 
-## 📍 Institution and Degree
+## Institution and Degree
 
 **University of Minho**, School of Engineering
 **Bachelor's in Industrial Electronics and Engineering**
