@@ -18,9 +18,7 @@ The robot combines **omnidirectional locomotion**, **sensor fusion**, **wireless
 
 - **Omnidirectional locomotion** with 4 independently controlled motors  
 - **Closed-loop motor control** using individual PID controllers with encoder feedback  
-- **Environmental monitoring**
-&nbsp; - Temperature (HDC1080)
-&nbsp; - Gas levels: CO₂ (eCO₂) & TVOC (CCS811)
+- **Environmental monitoring**: Temperature (HDC1080), Gas levels: CO₂ (eCO₂) & TVOC (CCS811)
 - **Obstacle detection** using ultrasonic parking sensors  
 - **Battery voltage monitoring** with ADC and safety indicators  
 
@@ -39,13 +37,8 @@ The robot combines **omnidirectional locomotion**, **sensor fusion**, **wireless
 ## System Architecture
 - **STM32H755**  
 &nbsp; - Motor control, sensors, RTOS, camera interface  
-- **ESP32**
-&nbsp; - BLE communication with Android app  
-&nbsp; - Wi-Fi data transmission
-- **Custom 4-layer PCB**
-&nbsp; - Power & signal isolation
-&nbsp; - EMI reduction
-&nbsp; - Integrated motor drivers and sensors
+- **ESP32**: BLE communication with Android app, Wi-Fi data transmission
+- **Custom 4-layer PCB**: Power & signal isolation, EMI reduction, Integrated motor drivers and sensors
 ---
 ## Technologies Used
 - C / Embedded C
