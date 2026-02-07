@@ -2,7 +2,7 @@
 
 **HazMapper** is an autonomous mobile robot developed to **map and monitor hazardous environments**, reducing human exposure to dangerous conditions.  
 
-This project was developed as part of **Projeto Integrador II** in the **Bachelor’s Degree in Industrial Electronics and Computers Engineering** at the **University of Minho**.
+This project was developed as part of **Projeto Integrador II** (Integrated Project II) in the **Bachelor’s Degree in Industrial Electronics and Computers Engineering** at the **University of Minho**.
 
 ---
 
@@ -68,12 +68,4 @@ The robot combines **omnidirectional locomotion**, **sensor fusion**, **wireless
 **Supervisor:** Prof. Adriano Tavares
 
 **Date**: June 2025
-
----
-
-## Institution and Degree
-
-**University of Minho**, School of Engineering
-**Bachelor's in Industrial Electronics and Engineering**
-Developed under the Integrated Project 2 subject
 
