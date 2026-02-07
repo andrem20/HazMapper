@@ -1,0 +1,4 @@
+../Core/Src/esp_driver.c:50:6:ESP_init	16	static
+../Core/Src/esp_driver.c:60:13:is_valid_frame	16	static
+../Core/Src/esp_driver.c:78:13:handle_frame	48	static,ignoring_inline_asm
+../Core/Src/esp_driver.c:120:6:ESP_processBufferTask	24	static

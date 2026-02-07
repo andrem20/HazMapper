@@ -1,0 +1,2 @@
+../Core/Src/freertos.c:164:6:MX_FREERTOS_Init	40	static,ignoring_inline_asm
+../Core/Src/freertos.c:237:6:nothingTask	16	static

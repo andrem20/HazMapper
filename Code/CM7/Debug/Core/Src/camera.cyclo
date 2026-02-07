@@ -1,0 +1,7 @@
+../Core/Src/camera.c:19:13:ov7670_write	1
+../Core/Src/camera.c:26:13:ov7670_read	1
+../Core/Src/camera.c:32:6:camera_init	1
+../Core/Src/camera.c:48:6:camera_config	2
+../Core/Src/camera.c:59:6:startCap	1
+../Core/Src/camera.c:71:6:stop_Cap	1
+../Core/Src/camera.c:76:6:Camera_Task	4

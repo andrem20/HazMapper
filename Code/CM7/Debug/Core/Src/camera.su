@@ -1,0 +1,7 @@
+../Core/Src/camera.c:19:13:ov7670_write	32	static
+../Core/Src/camera.c:26:13:ov7670_read	24	static
+../Core/Src/camera.c:32:6:camera_init	32	static
+../Core/Src/camera.c:48:6:camera_config	16	static
+../Core/Src/camera.c:59:6:startCap	24	static
+../Core/Src/camera.c:71:6:stop_Cap	8	static
+../Core/Src/camera.c:76:6:Camera_Task	32	static

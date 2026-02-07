@@ -1,0 +1,3 @@
+../Core/Src/movement_control.c:30:13:update_direction	3
+../Core/Src/movement_control.c:47:6:move	5
+../Core/Src/movement_control.c:63:6:update_speed	1

@@ -1,0 +1,14 @@
+../Core/Src/DD_MotorControl.c:69:6:set_On_Off	24	static
+../Core/Src/DD_MotorControl.c:81:6:set_Ports	32	static
+../Core/Src/DD_MotorControl.c:91:6:set_Pins	24	static
+../Core/Src/DD_MotorControl.c:101:6:set_PWM_parameters	32	static
+../Core/Src/DD_MotorControl.c:117:6:set_sampling_parameters	32	static
+../Core/Src/DD_MotorControl.c:133:6:set_encoder_parameters	32	static
+../Core/Src/DD_MotorControl.c:146:6:set_pid	40	static
+../Core/Src/DD_MotorControl.c:157:6:turn_on_off_f	24	static
+../Core/Src/DD_MotorControl.c:187:6:update_pwm_ind	24	static
+../Core/Src/DD_MotorControl.c:225:6:Read_Encoder	16	static
+../Core/Src/DD_MotorControl.c:251:6:ISR_PID_speed	32	static
+../Core/Src/DD_MotorControl.c:267:6:Sampling_and_PID_Task	24	static
+../Core/Src/DD_MotorControl.c:285:6:turn_on_off_Task	24	static
+../Core/Src/DD_MotorControl.c:315:6:MovementControl_Task	24	static

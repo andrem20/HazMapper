@@ -1,0 +1,5 @@
+../Core/Src/callbacks.c:42:6:HAL_TIM_PeriodElapsedCallback	6
+../Core/Src/callbacks.c:63:6:HAL_I2C_MasterTxCpltCallback	5
+../Core/Src/callbacks.c:76:6:HAL_I2C_MasterRxCpltCallback	5
+../Core/Src/callbacks.c:97:6:HAL_DCMI_FrameEventCallback	4
+../Core/Src/callbacks.c:113:6:HAL_ADC_ConvCpltCallback	4

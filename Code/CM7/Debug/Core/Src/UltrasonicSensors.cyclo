@@ -1,0 +1,9 @@
+../Core/Src/UltrasonicSensors.c:57:6:init_US	1
+../Core/Src/UltrasonicSensors.c:63:6:switch_state_US	1
+../Core/Src/UltrasonicSensors.c:69:6:idle_US	4
+../Core/Src/UltrasonicSensors.c:88:6:start_US	5
+../Core/Src/UltrasonicSensors.c:114:6:sync_h_US	5
+../Core/Src/UltrasonicSensors.c:140:6:sync_l_US	5
+../Core/Src/UltrasonicSensors.c:166:6:interpret_data	4
+../Core/Src/UltrasonicSensors.c:187:6:get_data_US	10
+../Core/Src/UltrasonicSensors.c:251:6:ParkingSensors_Task	1

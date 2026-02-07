@@ -1,0 +1,4 @@
+../Core/Src/TransmitModule.c:29:6:uartTransmitTask	24	static
+../Core/Src/TransmitModule.c:54:5:print_message_to_UART	24	static
+../Core/Src/TransmitModule.c:73:5:_write	24	static
+../Core/Src/TransmitModule.c:79:6:HAL_UART_TxCpltCallback	24	static,ignoring_inline_asm

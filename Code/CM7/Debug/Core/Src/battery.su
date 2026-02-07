@@ -1,0 +1,3 @@
+../Core/Src/battery.c:19:6:Battery_init	4	static
+../Core/Src/battery.c:23:6:Battery_start_ADC_conversion	8	static
+../Core/Src/battery.c:50:6:Battery_Task	48	static

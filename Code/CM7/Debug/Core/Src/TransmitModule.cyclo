@@ -1,0 +1,4 @@
+../Core/Src/TransmitModule.c:29:6:uartTransmitTask	3
+../Core/Src/TransmitModule.c:54:5:print_message_to_UART	3
+../Core/Src/TransmitModule.c:73:5:_write	1
+../Core/Src/TransmitModule.c:79:6:HAL_UART_TxCpltCallback	2

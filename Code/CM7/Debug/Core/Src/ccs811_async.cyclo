@@ -1,0 +1,5 @@
+../Core/Src/ccs811_async.c:29:13:CCS811_Sensorinit	1
+../Core/Src/ccs811_async.c:44:13:CCS811_SensorStart_Read	2
+../Core/Src/ccs811_async.c:55:13:CCS811_SensorRX_Process	2
+../Core/Src/ccs811_async.c:65:13:CCS811_SensorFSM	5
+../Core/Src/ccs811_async.c:96:6:CCS811_SensorTask	1
