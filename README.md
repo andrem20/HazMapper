@@ -66,6 +66,7 @@ The robot combines **omnidirectional locomotion**, **sensor fusion**, **wireless
 - Mariana Martins   (https://github.com/Mariana2724)
 
 **Supervisor:** Prof. Adriano Tavares
+**Date**: June 2025
 
 ---
 
